@@ -136,7 +136,7 @@ Description=Ollama Service
 After=network-online.target
 
 [Service]
-ExecStart=OLLAMA_HOST="0.0.0.0" $BINDIR/ollama serve
+ExecStart=$BINDIR/ollama serve
 User=ollama
 Group=ollama
 Restart=always
