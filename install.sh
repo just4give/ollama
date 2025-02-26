@@ -143,6 +143,7 @@ Restart=always
 RestartSec=3
 Environment="PATH=$PATH"
 Environment="OLLAMA_HOST=0.0.0.0:11434"
+Environment="OLLAMA_MODELS=/home/ubuntu/vitu/models"
 
 [Install]
 WantedBy=default.target
